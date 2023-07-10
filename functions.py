@@ -49,3 +49,9 @@ def display_score(correct_answer, player_answers):
     print('----------------------------')
 
 
+def play_again():
+    user_choice = input('Do you want to play again? (y/n): ').upper()
+    if user_choice == 'Y':
+        return True
+    else:
+        return False

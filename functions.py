@@ -30,3 +30,22 @@ def check_answer(question, answer):
         return 0
 
 
+def display_score(correct_answer, player_answers):
+    print('----------------------------')
+    print('Showing results')
+    print('----------------------------')
+    print('Correct answers:', end=' ')
+    for i in q.questions:
+        print(q.questions.get(i), end=' ')
+    print()
+
+    print('Player answers:', end=' ')
+    for i in player_answers:
+        print(i, end=' ')
+    print()
+
+    score = int((correct_answer / len(q.questions)) * 100)
+    print('Your score is: {}%'.format(score))
+    print('----------------------------')
+
+

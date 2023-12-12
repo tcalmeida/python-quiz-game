@@ -3,7 +3,7 @@ questions = {
     'What is the most common surname in the United States?: ': 'B',
     'Who was the Ancient Greek God of the Sun?: ': 'C',
     'What city is known as "The Eternal City"?: ': 'A',
-    'Which planet has the most moons? Saturn?: ': 'D'
+    'Which planet has the most moons?: ': 'D'
 }
 
 answers = [('A. Hong Kong', 'B. Beijing', 'C. Vietnam', 'D. London'),
